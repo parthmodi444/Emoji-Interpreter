@@ -4,11 +4,12 @@ import "./styles.css";
 export default function App() {
   var [Meaning, setMeaning] = useState("");
   const emojiDictionary = {
-    "😳": "disbelief",
+    "🤣": " ROFL",
     "😔": "sad",
-    "🥡": "takeout box",
-    "❤️": "love",
-    "😑": "annoyance"
+    "🥰": "In Love Face",
+    "🔥": "Hot",
+    "😑": "annoyance",
+    "☹️": "Frowning Face"
   };
   var emojisWeKnow = Object.keys(emojiDictionary);
   function emojiClickHandler(emoji) {
