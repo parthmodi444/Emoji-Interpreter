@@ -12,7 +12,7 @@ export default function App() {
     "☹️": "Frowning Face",
     "🤩": "Exicted",
     "😋": "Hungry",
-
+    "🥺": " Begging",
     "😝": "Tongue Out"
   };
   var emojisWeKnow = Object.keys(emojiDictionary);
