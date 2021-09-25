@@ -9,7 +9,11 @@ export default function App() {
     "🥰": "In Love Face",
     "🔥": "Hot",
     "😑": "annoyance",
-    "☹️": "Frowning Face"
+    "☹️": "Frowning Face",
+    "🤩": "Exicted",
+    "😋": "Hungry",
+
+    "😝": "Tongue Out"
   };
   var emojisWeKnow = Object.keys(emojiDictionary);
   function emojiClickHandler(emoji) {
